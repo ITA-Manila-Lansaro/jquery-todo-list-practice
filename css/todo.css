@@ -1,4 +1,4 @@
-/*basic style*/
+done-todo/*basic style*/
 
 body {
     font: normal normal 13px/16px "Open Sans", sans-serif;
@@ -23,7 +23,7 @@ input{
     
 }
 
-#button{
+#addButton{
 display: inline-block;
 background-color:#fc999b;
 color:#ffffff;
@@ -33,7 +33,7 @@ margin-top:2px;
 padding: 5px 15px;
 }
 
-#button:hover{
+#addButton:hover{
 cursor: pointer;
 opacity: .8;
 }
@@ -90,7 +90,7 @@ li:hover{
     text-decoration: line-through;
 }
 
-input[type=checkbox].done-todo { 
-	
-    margin: 5px 5px 2px 0; 
+input[type=checkbox].done-todo {
+
+    margin: 5px 5px 2px 0;
 }
